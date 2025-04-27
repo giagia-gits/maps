@@ -10,6 +10,7 @@ pipeline {
 	stage('test') {
 	   steps {
 		echo 'This is Test Stage'
+	   }
 	}
 
 	stage('release') {
